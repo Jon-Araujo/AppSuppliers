@@ -29,6 +29,6 @@ Native é crucial para estabelecer uma presença sólida no mercado móvel.
 
 ## 📚 Orientações para executar o app
 
-* Baixe e [Instale](https://nodejs.org/en) o Node.js ![Node.js](./assets/nodejs.png=29x29)
+* Baixe e Instale o [Node.js](https://nodejs.org/en)
 * Instale o Expo com o comando 'npx create-expo-app my-app' no terminal na raiz do projeto
 * Execute o comando npm start para iniciar o projeto em seu dispositivo móvel ou em emulador local
