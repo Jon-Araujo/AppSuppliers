@@ -4,7 +4,7 @@
 **Curso:** Desenvolvimento Full Stack\
 **Turma:** 2023.4\
 **Professor:** Jhonatan Alves\
-**Disciplina:** Adicionando interatividade com o React Native
+**Disciplina:** Vamos criar um app
 
 
 # Missão Prática Nível 1 Mundo 4
