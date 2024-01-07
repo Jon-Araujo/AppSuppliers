@@ -1,7 +1,6 @@
 ![image](./assets/estacio.png)
 
-**EQUIPE DEV TEAM 01**\
-**Nome:** Jonathan Araújo - 202205178111@alunos.estacio.br\
+**Nome:** Jonathan Araujo - 202205178111@alunos.estacio.br\
 **Curso:** Desenvolvimento Full Stack\
 **Turma:** 2023.4\
 **Professor:** Jhonatan Alves\
@@ -25,6 +24,6 @@ Native é crucial para estabelecer uma presença sólida no mercado móvel.
 
 ## Orientação
 
-* Baixe e Instale o ![Node.js](https://nodejs.org/en)
+* Baixe e [Instale](https://nodejs.org/en) o Node.js ![Node.js](./assets/nodejs.png)
 * Instale o Expo com o comando 'npx create-expo-app my-app' no terminal na raiz do projeto
 * Execute o comando npm start para iniciar o projeto em seu dispositivo móvel ou em emulador local
