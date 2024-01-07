@@ -22,6 +22,7 @@ export default function RegisterScreen({ navigation }) {
                 placeholder="Ex: https://imagem-exemplo.com"
                 onChangeText={newImage => setImage(newImage)}
                 defaultValue={image}
+                keyboardType="url"
             />
             <Text>Insira o nome da Empresa</Text>
             <TextInput
@@ -29,6 +30,7 @@ export default function RegisterScreen({ navigation }) {
                 placeholder="Empresa Exemplo"
                 onChangeText={newName => setName(newName)}
                 defaultValue={name}
+                keyboardType="default"
             />
             <Text>Insira a categoria da Empresa</Text>
             <TextInput
@@ -36,6 +38,7 @@ export default function RegisterScreen({ navigation }) {
                 placeholder="Empresa Exemplo"
                 onChangeText={newCategory => SetCategory(newCategory)}
                 defaultValue={category}
+                keyboardType="default"
             />
             <Text>Insira o telefone de contato da Empresa</Text>
             <TextInput
@@ -43,6 +46,7 @@ export default function RegisterScreen({ navigation }) {
                 placeholder="(21) 0000-0000"
                 onChangeText={newPhone => setPhone(newPhone)}
                 defaultValue={phone}
+                keyboardType="phone-pad"
             />
             <Text>Insira o email de contato da Empresa</Text>
             <TextInput
@@ -50,6 +54,7 @@ export default function RegisterScreen({ navigation }) {
                 placeholder="empresa@exemplo.com"
                 onChangeText={newEmail => setEmail(newEmail)}
                 defaultValue={email}
+                keyboardType="email-address"
             />
             <Text>Insira o endereço da Empresa</Text>
             <TextInput
@@ -57,6 +62,7 @@ export default function RegisterScreen({ navigation }) {
                 placeholder="Empresa Exemplo"
                 onChangeText={newAddress => setAddress(newAddress)}
                 defaultValue={address}
+                keyboardType="default"
             />
             <TouchableOpacity style={styles.button} onPress={async () => {
                 const suppliersList = await getSuppliers();
